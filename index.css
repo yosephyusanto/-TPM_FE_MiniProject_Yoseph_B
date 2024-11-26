@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --accent-color: #4928FF;
+  --base-color: #000000;
+  --secondary-color: #615D5D;
+  --light-color: #EAEAEA;
+  --background-color: #E3E3E3;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: "Inter";
+}
+
+h1{
+  font-size: 64px;
+}
+
+p{
+  font-size: 14px;
+  line-height: 200%;
+}
+
+.text-bold{
+  font-weight: 600;
+}
+
+body{
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 350px;
+  width: 100%; 
+  padding: 0;
+  border-radius: 8px;
+}
+
+.ornament-star{
+  width: 100%;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.sub-card{
+  padding: 15px 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px 4px;
+}
+
+.slider:nth-child(1){
+  background-color: var(--secondary-color);
+}
+
+.slider{
+  height: 4px;
+  background-color: var(--light-color);
+}
+
+.ornament-circle, h1, p{
+  margin: 20px 0;
+}
+
+.close-icon{
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
